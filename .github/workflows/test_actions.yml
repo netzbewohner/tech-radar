@@ -27,8 +27,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Dump Apache projects
-        run: lynx -dump https://projects.apache.org/projects.html?category >apache.txt
-
+        #run: lynx -dump https://projects.apache.org/projects.html?category >apache.txt
+        run: curl https://projects.apache.org/projects.html?category >apache.txt
+        
       # Runs a set of commands using the runners shell
       - name: Test for Python
         run: |
