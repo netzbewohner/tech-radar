@@ -28,10 +28,20 @@ jobs:
       # Runs a single command using the runners shell
       - name: Dump Apache projects
         #run: lynx -dump https://projects.apache.org/projects.html?category >apache.txt
-        run: curl https://projects.apache.org/projects.html?category >apache.txt
+        run: |
+          mkdir -p data
+          rm -f data/*
+          curl https://projects.apache.org/projects.html?category >data/apache.html
         
       # Runs a set of commands using the runners shell
       - name: Test for Python
         run: |
           python --version
-          python -c 'print "Hello World!"'
+      - name: Commit and push if changed
+        run: |
+            git config user.name "Automated"
+            git config user.email "actions@users.noreply.github.com"
+            git add -A
+            timestamp=$(date --rfc-3339=seconds --utc)
+            git commit -m "Latest data: ${timestamp}" || exit 0
+            git push
