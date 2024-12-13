@@ -15960,9 +15960,9 @@
         "programming-language": "ActionScript",
         "release": [
             {
-                "created": "2023-06-05",
+                "created": "2024-12-11",
                 "name": "Apache Royale",
-                "revision": "0.9.10"
+                "revision": "0.9.12"
             }
         ],
         "shortdesc": "Compiles programs written in ActionScript and MXML into JavaScript and HTML that can run wherever JavaScript runs."
