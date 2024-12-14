@@ -11943,6 +11943,11 @@
                 "revision": "10.0.0"
             },
             {
+                "created": "2024-12-13",
+                "name": "lucene-9.12.1",
+                "revision": "9.12.1"
+            },
+            {
                 "created": "2024-09-28",
                 "name": "lucene-9.12.0",
                 "revision": "9.12.0"
