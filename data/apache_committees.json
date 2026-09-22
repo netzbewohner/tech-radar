@@ -9668,6 +9668,10 @@
                 "date": "2015-03-25",
                 "name": "Sean Busbey"
             },
+            "cconnell": {
+                "date": "2026-09-21",
+                "name": "Charles Connell"
+            },
             "chia7712": {
                 "date": "2017-09-29",
                 "name": "Chia-Ping Tsai"
@@ -9736,6 +9740,10 @@
                 "date": "2012-05-12",
                 "name": "Jonathan Hsieh"
             },
+            "junegunn": {
+                "date": "2026-09-21",
+                "name": "Junegunn Choi"
+            },
             "jxiang": {
                 "date": "2013-01-21",
                 "name": "Jimmy Xiang"
@@ -9755,6 +9763,10 @@
             "larsh": {
                 "date": "2011-10-08",
                 "name": "Lars Hofhansl"
+            },
+            "liuxiaocs": {
+                "date": "2026-09-21",
+                "name": "Xiao Liu"
             },
             "liyin": {
                 "date": "2012-05-17",
@@ -9803,6 +9815,10 @@
             "openinx": {
                 "date": "2019-08-05",
                 "name": "Zheng Hu"
+            },
+            "paksyd": {
+                "date": "2026-09-21",
+                "name": "Dávid Paksy"
             },
             "pankajkumar": {
                 "date": "2024-07-02",
@@ -9980,6 +9996,10 @@
                 "date": "2025-08-20",
                 "name": "Chenxin Zheng"
             },
+            "duansg": {
+                "date": "2026-09-20",
+                "name": "SiGuo Duan"
+            },
             "francischuang": {
                 "date": "2025-08-20",
                 "name": "Francis Chuang"
@@ -10023,6 +10043,10 @@
             "shenghang": {
                 "date": "2025-08-20",
                 "name": "Shenghang Zhang"
+            },
+            "shown": {
+                "date": "2026-09-20",
+                "name": "yu luo"
             },
             "shushengzhou": {
                 "date": "2025-08-20",
@@ -13327,6 +13351,10 @@
         "rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/johnzon.rdf",
         "reporting": 1,
         "roster": {
+            "dblevins": {
+                "date": "2026-09-20",
+                "name": "David Blevins"
+            },
             "jlmonteiro": {
                 "date": "2016-04-20",
                 "name": "Jean-Louis Monteiro"
@@ -13334,6 +13362,10 @@
             "jmclean": {
                 "date": "2016-04-20",
                 "name": "Justin Mclean"
+            },
+            "jungm": {
+                "date": "2026-09-20",
+                "name": "Markus Jung"
             },
             "rmannibucau": {
                 "date": "2016-04-20",
