@@ -40418,6 +40418,11 @@
         "pmc": "dubbo",
         "release": [
             {
+                "created": "2026-11-07",
+                "name": "Apache Dubbo",
+                "revision": "3.3.7"
+            },
+            {
                 "created": "2025-11-26",
                 "name": "Apache Dubbo",
                 "revision": "3.3.6"
@@ -63638,6 +63643,11 @@
         "pmc": "iggy",
         "release": [
             {
+                "created": "2026-11-07",
+                "name": "Apache Iggy",
+                "revision": "0.10.0"
+            },
+            {
                 "created": "2026-09-18",
                 "name": "Apache Iggy",
                 "revision": "0.9.0"
@@ -86045,7 +86055,6 @@
         "repository": [
             "https://github.com/apache/maven-jar-plugin"
         ],
-        "shortdesc": "The Maven JAR Plugin builds a Java Archive (JAR) file from the compiled project classes and resources.",
         "source": "release-catalog",
         "status": "active"
     },
