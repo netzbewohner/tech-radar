@@ -9706,6 +9706,21 @@
         "pmc": "arrow",
         "release": [
             {
+                "created": "2026-11-17",
+                "name": "Apache Arrow Rs",
+                "revision": "57.3.3"
+            },
+            {
+                "created": "2026-11-17",
+                "name": "Apache Arrow Rs",
+                "revision": "58.4.2"
+            },
+            {
+                "created": "2026-11-17",
+                "name": "Apache Arrow Rs",
+                "revision": "59.3.3"
+            },
+            {
                 "created": "2026-10-28",
                 "name": "Apache Arrow Rs",
                 "revision": "60.1.0"
@@ -18600,6 +18615,11 @@
         "name": "Apache Camel Karavan",
         "pmc": "camel",
         "release": [
+            {
+                "created": "2026-11-17",
+                "name": "Apache Camel Karavan",
+                "revision": "4.22.2"
+            },
             {
                 "created": "2026-10-08",
                 "name": "Apache Camel Karavan",
@@ -34486,6 +34506,16 @@
             "Rust"
         ],
         "release": [
+            {
+                "created": "2026-11-17",
+                "name": "Apache DataFusion",
+                "revision": "55.3.0"
+            },
+            {
+                "created": "2026-11-17",
+                "name": "Apache DataFusion",
+                "revision": "54.2.0"
+            },
             {
                 "created": "2026-10-07",
                 "name": "Apache DataFusion",
@@ -64325,6 +64355,11 @@
         ],
         "release": [
             {
+                "created": "2026-11-15",
+                "name": "Apache Asyncband",
+                "revision": "0.8.0"
+            },
+            {
                 "created": "2026-10-25",
                 "name": "Apache Asyncband",
                 "revision": "0.7.4"
@@ -73360,6 +73395,11 @@
         "pmc": "juneau",
         "release": [
             {
+                "created": "2026-11-17",
+                "name": "Apache Juneau",
+                "revision": "9.2.3"
+            },
+            {
                 "created": "2026-11-09",
                 "name": "Apache Juneau",
                 "revision": "9.2.2"
@@ -76797,7 +76837,8 @@
     "logging-chainsaw": {
         "bug-database": "https://github.com/apache/logging-chainsaw/issues",
         "category": [
-            "network-client"
+            "network-client",
+            "retired"
         ],
         "created": "2000-12-14",
         "download-page": "https://logging.apache.org/site/binindex.cgi",
@@ -76832,7 +76873,7 @@
         ],
         "shortdesc": "Apache Chainsaw is a GUI log viewer.",
         "source": "release-catalog",
-        "status": "active"
+        "status": "retired"
     },
     "logging-flume": {
         "bug-database": "https://issues.apache.org/jira/browse/FLUME",
@@ -77667,6 +77708,9 @@
         "status": "active"
     },
     "logging-log4j-audit": {
+        "category": [
+            "retired"
+        ],
         "created": "2016-11-11",
         "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
         "maintainer": [
@@ -77690,7 +77734,7 @@
             }
         ],
         "source": "release-catalog",
-        "status": "active"
+        "status": "retired"
     },
     "logging-log4j-extras": {
         "category": [
@@ -77799,6 +77843,9 @@
         "status": "active"
     },
     "logging-log4j-scala": {
+        "category": [
+            "retired"
+        ],
         "created": "2016-11-08",
         "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
         "maintainer": [
@@ -77832,7 +77879,7 @@
             }
         ],
         "source": "release-catalog",
-        "status": "active"
+        "status": "retired"
     },
     "logging-log4j-tools": {
         "created": "2016-11-11",
@@ -78090,7 +78137,8 @@
     "logging-log4php": {
         "bug-database": "https://issues.apache.org/jira/browse/LOG4PHP",
         "category": [
-            "library"
+            "library",
+            "retired"
         ],
         "created": "2004-01-31",
         "download-page": "https://logging.apache.org/log4php/download.html",
@@ -78125,7 +78173,7 @@
         ],
         "shortdesc": "Apache log4php is a logging framework for PHP.",
         "source": "release-catalog",
-        "status": "active"
+        "status": "retired"
     },
     "logging-parent": {
         "created": "2017-01-17",
@@ -85423,6 +85471,11 @@
             "Java"
         ],
         "release": [
+            {
+                "created": "2026-11-17",
+                "name": "Apache Maven Help Plugin",
+                "revision": "3.6.0"
+            },
             {
                 "created": "2026-07-03",
                 "name": "Apache Maven Help Plugin",
@@ -100956,6 +101009,11 @@
             "Java"
         ],
         "release": [
+            {
+                "created": "2026-11-17",
+                "name": "Apache OpenNLP",
+                "revision": "3.0.0"
+            },
             {
                 "created": "2026-11-16",
                 "name": "Apache OpenNLP",
@@ -134623,9 +134681,13 @@
         "status": "active"
     },
     "streampipes": {
+        "bug-database": "https://github.com/apache/streampipes/issues",
         "created": "2019-11-11",
-        "homepage": "https://streampipes.apache.org",
+        "description": "A self-service (Industrial) IoT toolbox to enable non-technical users to connect, analyze and explore IoT data streams.",
+        "download-page": "https://streampipes.apache.org/download/",
+        "homepage": "https://streampipes.apache.org/",
         "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+        "mailing-list": "https://streampipes.apache.org/community/mailing-lists/",
         "maintainer": [
             {
                 "mbox": "mailto:dev@streampipes.apache.org",
@@ -134700,6 +134762,9 @@
                 "name": "Apache StreamPipes",
                 "revision": "0.66.0-incubating"
             }
+        ],
+        "repository": [
+            "https://github.com/apache/streampipes"
         ],
         "source": "release-catalog",
         "status": "active"
