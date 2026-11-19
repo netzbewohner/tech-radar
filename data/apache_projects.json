@@ -11038,6 +11038,11 @@
         "pmc": "auron",
         "release": [
             {
+                "created": "2026-11-18",
+                "name": "Apache Auron",
+                "revision": "9.0.0"
+            },
+            {
                 "created": "2026-07-07",
                 "name": "Apache Auron",
                 "revision": "8.0.0-incubating"
@@ -40264,6 +40269,11 @@
         ],
         "release": [
             {
+                "created": "2026-11-18",
+                "name": "Apache Druid",
+                "revision": "39.0.0"
+            },
+            {
                 "created": "2026-09-30",
                 "name": "Apache Druid",
                 "revision": "38.0.0"
@@ -53826,6 +53836,11 @@
         "pmc": "grails",
         "release": [
             {
+                "created": "2026-11-19",
+                "name": "Apache Grails Actions",
+                "revision": "1.0.4"
+            },
+            {
                 "created": "2026-07-19",
                 "name": "Apache Grails Actions",
                 "revision": "1.0.3"
@@ -60825,6 +60840,11 @@
             "Java"
         ],
         "release": [
+            {
+                "created": "2026-11-18",
+                "name": "Apache HttpComponents Core",
+                "revision": "5.5"
+            },
             {
                 "created": "2026-10-14",
                 "name": "Apache HttpComponents Core",
@@ -90806,7 +90826,8 @@
     },
     "maven-verifier": {
         "category": [
-            "build-management"
+            "build-management",
+            "retired"
         ],
         "created": "2006-10-18",
         "description": "Maven is a project development management and comprehension tool. Based on the concept of a project object model: builds, dependency management, documentation creation, site publication, and distribution publication are all controlled from the declarative file. Maven can be extended by plugins to utilise a number of other development tools for reporting or the build process.",
@@ -90875,7 +90896,7 @@
             }
         ],
         "source": "release-catalog",
-        "status": "active"
+        "status": "retired"
     },
     "maven-verifier-plugin": {
         "category": [
@@ -115305,6 +115326,11 @@
         ],
         "release": [
             {
+                "created": "2026-11-17",
+                "name": "Apache SeaTunnel",
+                "revision": "3.1.0"
+            },
+            {
                 "created": "2026-09-29",
                 "name": "Apache SeaTunnel",
                 "revision": "3.0.0"
@@ -123398,6 +123424,16 @@
         "pmc": "sling",
         "release": [
             {
+                "created": "2026-11-18",
+                "name": "Apache Sling Feature",
+                "revision": "2.2.4"
+            },
+            {
+                "created": "2026-11-18",
+                "name": "Apache Sling Feature",
+                "revision": "2.0.24"
+            },
+            {
                 "created": "2026-11-15",
                 "name": "Apache Sling Feature",
                 "revision": "2.2.2"
@@ -130064,6 +130100,11 @@
         "name": "Apache Sling Slingfeature Maven Plugin",
         "pmc": "sling",
         "release": [
+            {
+                "created": "2026-11-18",
+                "name": "Apache Sling Slingfeature Maven Plugin",
+                "revision": "1.9.12"
+            },
             {
                 "created": "2026-11-15",
                 "name": "Apache Sling Slingfeature Maven Plugin",
